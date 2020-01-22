@@ -5,9 +5,45 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js" ></script>
-    <title></title>
+    <title>Fortune Teller</title>
   </head>
   <body>
+    <div class="container">
+      <div class="jumbotron">
+
+        <h1 class="text-center">Fortune Teller Quiz</h1>
+      </div>
+      <div class="row">
+        <div class="col-6 offset-3">
+            <form id="fortune">
+                <div class="form-group">
+                  <p>In the past year, I have used the following modes of transportation to travel to work or school:</p>
+                  <input type="checkbox" name="unlucky" value="fall"> Fall.<br>
+                  <input type="checkbox" name="unlucky" value="See Black Cat">See Black Cat.<br>
+                  <input type="checkbox" name="unlucky" value="Pee Pants">Pee Pants<br>
+                  <input type="checkbox" name="unlucky" value="bad dream">Bad dream.<br>
+                  <input type="checkbox" name="unlucky" value="lose">lose a beauty competition.<br>
+                  
+                </div>
+                <div id="good-stuff" class="form-group">
+                  <p>In the past year, I have used the following modes of transportation to travel to other activities and events:</p>
+                  <input type="checkbox" name="good" value="laugh"> laugh real hard.<br>
+                  <input type="checkbox" name="good" value="jump">Jump real high.<br>
+                  <input type="checkbox" name="good" value="love">Found Ever lasting love<br>
+
+                </div>
+               <button type="submit">Submit Survey</button>
+              </form>
+        </div>
+      </div> <!-- End Row 1 -->
+      <div class="row">
+        <div class="col-6 offset-3">
+          <ul class="result">
+
+          </ul>
+        </div>
+      </div><!-- End Row 2 -->
+    </div> <!-- End containter -->
 
   </body>
 </html>
